@@ -615,12 +615,7 @@ section {
     .main-container .image{
         z-index: 0;
         width: 50%;
-        height: 50%;
-        border-radius: 50%;
-        overflow: hidden;
-        border: 5px solid #0b07c0;
-        box-shadow: 0 0 15px rgba(8, 46, 219, 0.5);
-        margin-bottom: 20px;
+        height: 50%;       
     }
     .main-container button{
         margin-top: 15px;
@@ -659,8 +654,7 @@ section {
     .main-container .image{
         width: 50%;
         height: 50%;
-        margin-bottom: 0px;
-        
+        margin-bottom: 0px;    
     }
     .main-container .content{
         margin-top: 20px;
