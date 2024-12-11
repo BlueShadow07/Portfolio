@@ -703,6 +703,20 @@ section {
     .timeline-content p{
         text-align: center;
     }
+     /* Skills-Bereich für sehr kleine Bildschirme */
+     .skills-container {
+        padding: 15px; /* Weniger Padding */
+    }
+
+    .skills-container h2 {
+        font-size: 1.2rem; /* Noch kleinere Schriftgröße */
+        margin-top: 15px; /* Weniger Abstand */
+    }
+
+    .skills-container .icons i {
+        font-size: 1.8rem; /* Noch kleinere Icons */
+        margin: 8px; /* Weniger Abstand zwischen den Icons */
+    }
 
 @media (max-width: 884px) {
     #about {
@@ -711,31 +725,28 @@ section {
         flex-direction: column; /* Elemente untereinander anordnen */
         align-items: center;    /* Zentrieren */
         text-align: center;     /* Text zentrieren */
+        margin-bottom: 20px;
     }
 
     #about h2 {
-        font-size: 1.5rem; /* Kleinere Schriftgröße */
+        font-size: 1.3rem; /* Kleinere Schriftgröße */
         margin-bottom: 10px; /* Abstand zum Button */
     }
 
     #about p {
-        font-size: 0.85rem; /* Kleinere Schriftgröße für Mobilgeräte */
-        margin-bottom: 20px; /* Abstand zum Button */
+        font-size: 0.8rem; /* Kleinere Schriftgröße für Mobilgeräte */
+        margin-bottom: 30px; /* Abstand zum Button */
     }
 
-    #about button {
-        margin: 20px 0; /* Mehr Abstand um den Button herum */
-        width: 80%;     /* Breite anpassen */
-        font-size: 1rem;
-    }
+    
     .skills-container {
         padding: 20px; /* Zusätzlicher Abstand */
     }
 
     .skills-container h2 {
-        font-size: 1.5rem; /* Kleinere Schriftgröße für die Überschrift */
+        font-size: 1.3rem; /* Kleinere Schriftgröße für die Überschrift */
         text-align: center; /* Zentrierte Überschrift */
-        margin-bottom: 20px; /* Abstand nach unten */
+        margin-bottom: 10px; /* Abstand nach unten */
     }
 
     .skills-container .icons {
@@ -746,7 +757,7 @@ section {
     }
 
     .skills-container .icons i {
-        font-size: 2rem; /* Kleinere Icons */
+        font-size: 1.8rem; /* Kleinere Icons */
         margin: 10px; /* Zusätzlicher Abstand */
     }
 }
