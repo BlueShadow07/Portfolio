@@ -613,7 +613,7 @@ section {
         font-size: 1.5rem;
     }
     .main-container .image{
-        z-index: 0;
+        z-index: -1;
         width: 50%;
         height: 50%;       
     }
