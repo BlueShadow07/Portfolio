@@ -734,13 +734,13 @@ section {
     }
 
     #about p {
-        font-size: 0.8rem; /* Kleinere Schriftgröße für Mobilgeräte */
+        font-size: 0.78rem; /* Kleinere Schriftgröße für Mobilgeräte */
         margin-bottom: 30px; /* Abstand zum Button */
     }
 
     
     .skills-container {
-        padding: 20px; /* Zusätzlicher Abstand */
+        padding: 0px; /* Zusätzlicher Abstand */
     }
 
     .skills-container h2 {
