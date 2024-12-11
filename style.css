@@ -365,7 +365,7 @@ section{
 .timeline {
     position: relative;
     width: 80%;
-    max-width: 800px;
+    max-width: 900px;
     margin: 0 auto;
     margin-bottom: 20px;
     padding: 30px 20px;
@@ -678,13 +678,13 @@ section {
     }
     .timeline-icon-left,
     .timeline-icon-right {
-        width: 40px; /* Icons kleiner machen */
-        height: 40px;
+        width: 30px; /* Icons kleiner machen */
+        height: 30px;
         font-size: 1rem;
         
     }
     .timeline-content {
-        font-size: 0.8rem; /* Kleinere Schriftgröße */
+        font-size: 0.7rem; /* Kleinere Schriftgröße */
         padding: 15px 20px; /* Weniger Innenabstand */
     }
     .timeline-heading {
