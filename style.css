@@ -368,6 +368,97 @@ nav a:hover {
     font-size: 0.95em;
 }
 
+/* Großes Projekt */
+.big-project {
+    padding: 80px 10%;
+    background-color: #2F2F2F;
+    text-align: center;
+}
+
+.big-project h1 {
+    font-family: "Tuffy", sans-serif;
+    font-size: 2.5rem;
+    color: white;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.big-project h1::after {
+    content: "";
+    display: block;
+    width: 80px;
+    height: 4px;
+    background-color: #8B5CF6;
+    margin: 10px auto 0;
+}
+
+/* Horizontale Bilderreihe */
+.big-project-gallery {
+    display: flex;
+    gap: 15px;
+    overflow-x: auto;
+    padding-bottom: 10px;
+}
+
+.big-project-gallery img {
+    height: 550px;
+    /* feste Höhe für alle Bilder */
+    flex: 0 0 auto;
+    /* verhindert, dass Bilder schrumpfen */
+    border-radius: 10px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.big-project-gallery img:hover {
+    transform: scale(1.05);
+}
+
+/* Text unter der Galerie */
+.big-project-text {
+    text-align: center;
+    /* H3 und Text zentrieren */
+    margin-top: 30px;
+}
+
+.big-project-text h3 {
+    font-family: "Tuffy", sans-serif;
+    font-size: 1.9rem;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.big-project-text p {
+    font-family: "Tuffy", sans-serif;
+    font-size: 1.2rem;
+    color: white;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.big-project-text strong {
+    color: #8B5CF6;
+    /* etwas dunkler, damit es sich vom Verlauf abhebt */
+}
+
+
+/* Mobile */
+@media (max-width: 768px) {
+    .big-project-gallery {
+        height: 180px;
+        /* kleinere Höhe auf Mobil */
+    }
+
+    .big-project-gallery img {
+        height: 180px;
+    }
+
+    .big-project-text {
+        text-align: center;
+    }
+}
+
+
 
 .contact {
     padding: 60px 10%;
